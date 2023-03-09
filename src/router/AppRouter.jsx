@@ -9,7 +9,7 @@ export const AppRouter = () => {
         <>
             <Navbar />
 
-            <div className="container mt-2">
+            <div>
                 <Routes>
                     <Route path="/" element={ <Home /> } />
                     <Route path="nosotros" element={ <Nosotros /> } />
